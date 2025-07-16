@@ -43,44 +43,44 @@ a:not(.button):hover {
   border: 2px solid #ffffff !important;
 }
 
-/* Zerno Primary Button - White background with black text
+/* Zerno Primary Button - Dark background like other buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button-zerno {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  border: 2px solid #ffffff !important;
+  background-color: #282828 !important;
+  color: #ffffff !important;
+  border: none !important;
   font-weight: 700 !important;
 }
 
 .button-zerno:hover {
-  background-color: #f0f0f0 !important;
-  color: #000000 !important;
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(40, 40, 40, 0.3) !important;
 }
 
-/* Zerno Outline Button - Transparent with white border
+/* Zerno Outline Button - Dark background, no border
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button-zerno-outline {
-  background-color: transparent !important;
+  background-color: #282828 !important;
   color: #ffffff !important;
-  border: 2px solid #ffffff !important;
+  border: none !important;
   font-weight: 700 !important;
 }
 
 .button-zerno-outline:hover {
-  background-color: #ffffff !important;
-  color: #000000 !important;
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(40, 40, 40, 0.3) !important;
 }
 
-/* Email Button - Dark styling
+/* Email Button - Dark styling, no border
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button-email {
   background-color: #333333 !important;
   color: #ffffff !important;
-  border: 2px solid #333333 !important;
+  border: none !important;
   font-weight: 700 !important;
 }
 
@@ -90,12 +90,12 @@ a:not(.button):hover {
   box-shadow: 0 4px 12px rgba(51, 51, 51, 0.3) !important;
 }
 
-/* Enhanced Social Media Button Styling
+/* Enhanced Social Media Button Styling - No borders
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button-instagram {
   background-color: #E4405F !important;
   color: #ffffff !important;
-  border: 2px solid #E4405F !important;
+  border: none !important;
   font-weight: 700 !important;
 }
 
@@ -104,28 +104,31 @@ a:not(.button):hover {
   box-shadow: 0 4px 12px rgba(228, 64, 95, 0.3) !important;
 }
 
-.button-linkedin {
-  background-color: #0077B5 !important;
-  color: #ffffff !important;
-  border: 2px solid #0077B5 !important;
-  font-weight: 700 !important;
-}
-
-.button-linkedin:hover {
-  transform: translateY(-2px) !important;
-  box-shadow: 0 4px 12px rgba(0, 119, 181, 0.3) !important;
-}
-
 .button-facebook {
   background-color: #1877F2 !important;
   color: #ffffff !important;
-  border: 2px solid #1877F2 !important;
+  border: none !important;
   font-weight: 700 !important;
 }
 
 .button-facebook:hover {
   transform: translateY(-2px) !important;
   box-shadow: 0 4px 12px rgba(24, 119, 242, 0.3) !important;
+}
+
+/* YouTube Button - Dark styling, no border
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button-yt {
+  background-color: #282828 !important;
+  color: #ffffff !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+
+.button-yt:hover {
+  background-color: #3a3a3a !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(40, 40, 40, 0.3) !important;
 }
 
 /* Global Button Enhancements
